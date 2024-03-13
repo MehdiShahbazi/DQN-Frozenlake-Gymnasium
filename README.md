@@ -62,7 +62,7 @@ You can view the training procedure through the following GIFs, demonstrating th
 The training outcomes for the 4x4 map size over 1000 episodes, and the 8x8 map size over 2500 episodes, are summarized below. This includes the raw rewards obtained and the Simple Moving Average of 50 (SMA 50) rewards:
 
 
-|![](./4x4/reward_plot.png)<br>4x4 map size|![](./8x8/reward_plot.png)<br>8x8 map siz|
+|![](./4x4/reward_plot.png)<br>4x4 map size|![](./8x8/reward_plot.png)<br>8x8 map size|
 |:-:|:-:|
 
 
