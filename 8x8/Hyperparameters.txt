@@ -1,0 +1,15 @@
+RL_hyperparams = {        
+	"clip_grad_norm"        : 3,
+	"learning_rate"         : 6e-4,
+	"discount_factor"       : 0.93,
+	"batch_size"            : 32,
+	"update_frequency"      : 10,
+	"max_episodes"          : 3000           if train_mode else 2,
+	"max_steps"             : 200,
+	
+	"epsilon_max"           : 0.999         if train_mode else -1,
+	"epsilon_min"           : 0.01,
+	"epsilon_decay"         : 0.999,
+	
+	"memory_capacity"       : 4_000        if train_mode else 0,
+	}
