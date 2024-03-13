@@ -1,5 +1,5 @@
 ## Description
-This repository hosts a Python implementation of the Deep Q-Network (DQN) algorithm, a powerful method within the realm of Deep Reinforcement Learning (DRL). We apply DQN to solve the [FrozenLake-v1](https://gymnasium.farama.org/environments/toy_text/frozen_lake/) environment provided by the Gymnasium library. The agent's objective is to navigate across a frozen lake, moving from the starting point to the goal while avoiding falling into any holes. The implementation aims to showcase the effectiveness of DQN in mastering this classic control problem while also serving as a reference for those interested in utilizing and practicing DQN.
+This repository hosts a Python implementation of the Deep Q-Network (DQN) algorithm, a powerful method within the realm of Deep Reinforcement Learning (DRL). We apply DQN to solve the [FrozenLake-v1](https://gymnasium.farama.org/environments/toy_text/frozen_lake/) environment provided by the Gymnasium library. The agent's objective is to navigate across a frozen lake, moving from the starting point to the goal while avoiding falling into any holes. The implementation aims to showcase the effectiveness of DQN in mastering this classic control problem while also serving as a reference for those interested in utilizing and practicing/learning DQN.
 
 
 ## Introduction
@@ -43,10 +43,10 @@ You can view the training procedure through the following GIFs, demonstrating th
 **Note:** The training was conducted with no randomness in the environment and without enabling the slippery mode (deterministic environment).
 
 
-<div style="display: flex;">
-  <img src="./Gifs/4x4 - EP 1.gif" width="31%" height=31% />
-  <img src="./Gifs/4x4 - EP 500.gif" width="31%" height=31% />
-  <img src="./Gifs/4x4 - EP 1000.gif" width="31%" height=31% />
+<p align="center">
+  <img src="./Gifs/4x4 - EP 1.gif" width="23%" height=23% />
+  <img src="./Gifs/4x4 - EP 500.gif" width="23%" height=23% />
+  <img src="./Gifs/4x4 - EP 1000.gif" width="23%" height=23% />
 </div>
 
 <p align="center">
@@ -61,16 +61,10 @@ You can view the training procedure through the following GIFs, demonstrating th
 #### Results
 The training outcomes for the 4x4 map size over 1000 episodes, and the 8x8 map size over 2500 episodes, are summarized below. This includes the raw rewards obtained and the Simple Moving Average of 50 (SMA 50) rewards:
 
-<p align="left">
-  <figure>
-    <img src="./4x4/reward_plot.png" width="31%" height="31%" />
-    <figcaption>4x4 map size</figcaption>
-  </figure>
-  <figure>
-    <img src="./8x8/reward_plot.png" width="31%" height="31%" />
-    <figcaption>8x8 map size</figcaption>
-  </figure>
-</p>
+
+|![](./4x4/reward_plot.png)<br>4x4 map size|![](./8x8/reward_plot.png)<br>8x8 map siz|
+|:-:|:-:|
+
 
 
 ## Persian Tutorial Video
