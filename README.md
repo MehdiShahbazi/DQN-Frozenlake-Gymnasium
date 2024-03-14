@@ -73,6 +73,11 @@ The training outcomes for the 4x4 map size over 1000 episodes, and the 8x8 map s
 
 
 ## Persian Tutorial Video
-You can access the video tutorial (in persian) that explains the implementation of the DQN algorithm in Frozenlake environment from [here](https://youtu.be/lK4lfPGgGis).
+You can access the video tutorial (in Persian) that explains the implementation of the DQN algorithm in the Frozenlake environment from [here](https://youtu.be/lK4lfPGgGis).
 
-I sincerely hope that this tutorial proves helpful to those of you who are in the process of learning. If you find this repository helpful in your learning journey, consider giving endorsement.
+I sincerely hope that this tutorial proves helpful to those of you who are in the process of learning. If you find this repository helpful in your learning journey, consider giving an endorsement.
+
+## Navigating Frozen Waters: Environment Conquests
+Explore my solutions for various environments within the Gymnasium library, each presenting captivating challenges that showcase the exciting applications of deep reinforcement learning techniques. Some of these solved environments include:
+
+TO DO
