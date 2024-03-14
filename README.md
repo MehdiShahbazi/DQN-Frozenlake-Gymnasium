@@ -2,7 +2,7 @@
 This repository hosts a Python implementation of the Deep Q-Network (DQN) algorithm, a powerful method within the realm of Deep Reinforcement Learning (DRL). We apply DQN to solve the [FrozenLake-v1](https://gymnasium.farama.org/environments/toy_text/frozen_lake/) environment :snowflake: provided by the Gymnasium library. The agent's objective is to navigate across a frozen lake :ski:, moving from the starting point :checkered_flag: to the goal :trophy: while avoiding falling into any holes :hole:. The implementation aims to showcase the effectiveness of DQN in mastering this classic problem while also serving as a reference for those interested in utilizing and practicing/learning DQN.
 
 
-## Introduction
+## Deep Q-Network (DQN)
 The DQN algorithm is a value-based, model-free, and off-policy approach renowned for its capacity to learn optimal policies from high-dimensional input spaces. Originating from the efforts of researchers at DeepMind, DQN merges deep neural networks with traditional Q-learning to approximate the optimal state-action value function (Q function). The major pros and cons of the algorithm are as follows:
 
 
