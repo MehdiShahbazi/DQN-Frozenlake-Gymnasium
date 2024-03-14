@@ -1,5 +1,5 @@
 ## Description
-This repository hosts a Python implementation of the Deep Q-Network (DQN) algorithm, a powerful method within the realm of Deep Reinforcement Learning (DRL). We apply DQN to solve the [FrozenLake-v1](https://gymnasium.farama.org/environments/toy_text/frozen_lake/) environment provided by the Gymnasium library. The agent's objective is to navigate across a frozen lake, moving from the starting point to the goal while avoiding falling into any holes. The implementation aims to showcase the effectiveness of DQN in mastering this classic control problem while also serving as a reference for those interested in utilizing and practicing/learning DQN.
+This repository hosts a Python implementation of the Deep Q-Network (DQN) algorithm, a powerful method within the realm of Deep Reinforcement Learning (DRL). We apply DQN to solve the [FrozenLake-v1](https://gymnasium.farama.org/environments/toy_text/frozen_lake/) environment :snowflake: provided by the Gymnasium library. The agent's objective is to navigate across a frozen lake :ski:, moving from the starting point :checkered_flag: to the goal :trophy: while avoiding falling into any holes :hole:. The implementation aims to showcase the effectiveness of DQN in mastering this classic control problem while also serving as a reference for those interested in utilizing and practicing/learning DQN.
 
 
 ## Introduction
@@ -14,6 +14,11 @@ The DQN algorithm is a value-based, model-free, and off-policy approach renowned
 1. 	**Hyperparameter Sensitivity:** DQN performance relies on tuning many hyperparameters, which makes it challenging to achieve optimal results in different environments.
 
 2. 	**Training Instability:** During training, DQN may encounter instability, primarily originating from the dynamic nature of the target network. Furthermore, performance collapse can occur, presenting a scenario where DQN struggles to recover through learning, potentially hindering its training progress.
+
+
+
+## Solution
+The main focus of solving the Frozen Lake environment lies in the discrete and integer nature of the observation space. The observation space of the FrozenLake environment consists of a single number from 0 to 15, representing a total of 16 discrete states. To address this, we should encode the state into a one-hot vector. This encoding transforms each discrete observation into a binary vector, where only one element is set to 1, representing the observed state. By doing so, we enable the neural network of the DQN to learn from more features represented by these one-hot vectors rather than solely relying on individual integers. This approach enhances the network's ability to capture the underlying structure of the environment and facilitates more effective learning, ultimately leading to improved performance in navigating the FrozenLake environment.
 
 
 
