@@ -80,4 +80,6 @@ I sincerely hope that this tutorial proves helpful to those of you who are in th
 ## Navigating Frozen Waters: Environment Conquests
 Explore my solutions for various environments within the Gymnasium library, each presenting captivating challenges that showcase the exciting applications of deep reinforcement learning techniques. Some of these solved environments include:
 
-TO DO
+###### Toy Text Environments:
+1. [Frozen Lake v1](https://github.com/MehdiShahbazi/DQN-Frozenlake-Gymnasium) &#8594; Solved with DQN algorithm
+2. [Cliff Walking v0](https://github.com/MehdiShahbazi/DQN-Cliff-Walking-Gymnasium) &#8594; Solved with DQN algorithm
