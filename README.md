@@ -82,3 +82,6 @@ Explore my solutions for various environments within the Gymnasium library, each
 
 ###### Toy Text Environments:
 1. [Cliff Walking v0](https://github.com/MehdiShahbazi/DQN-Cliff-Walking-Gymnasium) &#8594; Solved with DQN algorithm
+
+###### Classic Control Environments:
+1. [Mountain Car v0](https://github.com/MehdiShahbazi/DQN-Mountain-Car-Gymnasium) &#8594; Solved with DQN algorithm
