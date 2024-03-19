@@ -77,7 +77,7 @@ You can access the video tutorial (in Persian) that explains the implementation 
 
 I sincerely hope that this tutorial proves helpful to those of you who are in the process of learning. If you find this repository helpful in your learning journey, consider giving an endorsement.
 
-## Navigating Frozen Waters: Environment Conquests
+## Navigating Frozen Waters
 Explore my solutions for various environments within the Gymnasium library, each presenting captivating challenges that showcase the exciting applications of deep reinforcement learning techniques. Some of these solved environments include:
 
 ###### Toy Text Environments:
@@ -85,3 +85,4 @@ Explore my solutions for various environments within the Gymnasium library, each
 
 ###### Classic Control Environments:
 1. [Mountain Car v0](https://github.com/MehdiShahbazi/DQN-Mountain-Car-Gymnasium) &#8594; Solved with DQN algorithm
+2. [Cart Pole v1](https://github.com/MehdiShahbazi/REINFORCE-Cart-Pole-Gymnasium) &#8594; Solved with REINFORCE algorithm
